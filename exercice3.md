@@ -56,9 +56,7 @@ wilder@Ubuntu:~$ jobs -l
 [3]- 37972 En cours d'exécution   sleep
 Quelle commande te permet de mettre en avant le processus gedit ?
 
-    il s'agit de la commande fg 
-
-
+    il s'agit de la commande fg puis %number donc dans notre cas fg %1
 
 
 7- Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
