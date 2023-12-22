@@ -88,5 +88,10 @@ Quelle commande te permet de mettre en avant le processus gedit ?
     PowerShell : Get-ChildItem
 
     
-10. Dans la trame ethernet, qu'est-ce que le payload ?
+9. Dans la trame ethernet, qu'est-ce que le payload ?
+   
+    	La charge (payload) symbolise les données utiles transportées par un protocole.   Plus en détail Elles sont véhiculées par la trame. Emission => Encapsulation 		du PDU de la couche supérieure (ex. : un paquet IP) Réception => PDU transmis au protocole indiqué par le champ EtherType.
+         Taille min/max des données: 46 octets / 1500 octets  Si la longueur est inférieure à 46 octets, des octets à 0 (octets de bourrage) sont utilisés pour 
+          compléter.    La taille maximum des payload d'un lien réseau = MTU (Maximum Transmission Unit)
+
 11. Pourquoi les classes IP sont remplacées par le CIDR ?
