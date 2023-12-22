@@ -5,7 +5,8 @@
 
 2- Quelle commande bash permet de changer les droits du fichier myfile en rwxr—r-- ?
 
-    Commande CHMOD 
+    Commande CHMOD . Plus en détail   ->   chmod 744 myfile
+
 
 3- Quelle est la différence entre une variable d'environnement et une variable locale dans un script Bash, et comment pouvez-vous les définir et les utiliser ?
 
